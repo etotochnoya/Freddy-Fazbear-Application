@@ -13,7 +13,7 @@ registrationBtn.onclick = function(){
         if(nicknameInput.value === '')
             problem += '<p>input username to registrate</p>'
         else
-            problem += '<p>user with nickname' + nicknameInput.value + 'already registrated. please choose other nickname</p>'
+            problem += '<p>user with nickname ' + nicknameInput.value + ' already registrated. please choose other nickname</p>'
         if(passwordInput.value === '')
             problem += '<p>input your password to registrate</p>'
 
