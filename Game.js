@@ -30,11 +30,11 @@ function gameRender(){
     table = document.getElementById("table")
     startButton = document.getElementById("start-game")
     
-    for(let i = 0; i < 8; i++){
+    for(let i = 0; i < field.length; i++){
         let line = `<tr class="table-secondary" id="line${i}"></tr>`
         table.insertAdjacentHTML('beforeend', line)
         const linei = document.getElementById('line' + i)
-        for(let j = 0; j < 8; j++){
+        for(let j = 0; j < field[i].length; j++){
             linei.insertAdjacentHTML('beforeend', getCellTemplate(i, j))
         }           
     }

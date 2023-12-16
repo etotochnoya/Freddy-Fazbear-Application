@@ -1,0 +1,16 @@
+body {
+    background-color: #2b2b2b;
+}
+
+.already-input{
+    background-color: rgb(122, 181, 233);
+    text-align: right;
+    font-size: xx-large;
+}
+
+.need-input{
+    background-color: aliceblue;
+    text-align: left;
+    font-size: xx-large;
+}
+
