@@ -6,11 +6,13 @@ body {
     background-color: rgb(122, 181, 233);
     text-align: right;
     font-size: xx-large;
+    white-space: pre;
 }
 
 .need-input{
     background-color: aliceblue;
     text-align: left;
     font-size: xx-large;
+    white-space: pre;
 }
 
