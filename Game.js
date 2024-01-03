@@ -60,13 +60,6 @@ function getCellTemplate(i, j){
         <button class="btn btn-lg btn-${getColor(i, j)}" data-id="${String(i) + String(j)}">${field[Number(i)][Number(j)].steps}</button>
     </td>
      `
-
-    // return`
-    // <td>
-    //     <button class="btn btn-lg btn-${field[Number(i)][Number(j)].canGo ? 'success' : 'warning'}" data-id="${String(i) + String(j)}">${field[Number(i)][Number(j)].steps}</button>
-    // </td>
-
-    // `
 }
 function getColor(i, j){
     if(field[Number(i)][Number(j)].onPath)
