@@ -16,3 +16,13 @@ body {
     white-space: pre;
 }
 
+
+.fieldCell{
+    width:40px; /* or whatever width you want. */
+    max-width:40px; /* or whatever width you want. */
+    height: 40px;
+    max-height: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
